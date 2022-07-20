@@ -48,8 +48,8 @@ main {
 }
 
 .top-text a {
-    color: white;
-    background-color: red;
+    color: black;
+    background-color: whitesmoke;
     margin: 30px;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
@@ -58,10 +58,18 @@ main {
 
 }
 
+.top-text a:hover {
+    background-color: rgb(62, 62, 176);
+}
+
 .top-image {
     padding-top: 30px;
     padding-right: 30px;
-    transition: 0.5s;
+    transition: 1s;
+}
+
+.top-image:hover {
+    transform: scale(1.1);
 }
 
 .top-image :hover {
@@ -84,10 +92,12 @@ main {
     border-radius: 10px;
 }
 
+
 .manue a {
     text-decoration: none;
     color: black;
 }
+
 
 .Upcomming-match {
     background-color: whitesmoke;
@@ -97,12 +107,31 @@ main {
     border-radius: 3px;
 }
 
+.Upcomming-match:hover {
+    background-color: rgb(62, 62, 176);
+    transition: 0.7s;
+}
+
+.Upcomming-match:active {
+
+    background-color: red;
+}
+
 .all-groups {
     background-color: whitesmoke;
     text-align: center;
     margin: 10px;
     padding: 10px;
     border-radius: 3px;
+}
+
+.all-groups:hover {
+    background-color: rgb(62, 62, 176);
+    transition: 0.7s;
+}
+
+.all-groups:active {
+    background-color: red;
 }
 
 .blog-page {
@@ -172,7 +201,7 @@ footer {
 }
 
 hr {
-    color: rgb(174, 24, 24);
+    border: .5px solid red;
     width: 80%;
 
 }
@@ -189,7 +218,12 @@ hr {
 
 .about-us a {
     text-decoration: none;
+    margin: 10px;
     color: gray;
+}
+
+.about-us a:hover {
+    background-color: brown;
 }
 
 .social-link {
@@ -197,7 +231,12 @@ hr {
 }
 
 .social-link a {
+    margin: 5px;
     color: rgb(57, 121, 219);
+}
+
+.social-link a:hover {
+    background-color: brown;
 }
 
 /*----------------------- styles for upcomming match page ---------------------*/
